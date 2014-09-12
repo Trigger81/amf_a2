@@ -6,9 +6,9 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 0.60;
 		requiredAddons[] = {"AMF_Core"};
-		author[] = {"Coati - Echo12 Development Team"};
+		author[] = {"Coati - Echo12 Development Team (Edit by Trigger for ArmA 3)"};
 		version = "0.1";
-		authorUrl = "http://www.echo12.de";
+		authorUrl = "https://github.com/Echo12";
 	};
 };
 
