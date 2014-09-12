@@ -4,8 +4,8 @@ class CfgPatches
 	{
 		units[] = {};
 		weapons[] = {};
-		requiredVersion = 1.62;
-		requiredAddons[] = {"e12_amf_main"};
+		requiredVersion = 0.60;
+		requiredAddons[] = {"AMF_Core"};
 		author[] = {"Coati - Echo12 Development Team"};
 		version = "0.1";
 		authorUrl = "http://www.echo12.de";
@@ -41,9 +41,3 @@ class Extended_PostInit_EventHandlers
     };
     
 };
-
-
-
-
-
-
