@@ -28,16 +28,16 @@ class CfgVehicles {
 class Extended_PreInit_EventHandlers
 {
 	class e12_amf_perflog {
-        clientInit = "call compile preprocessFileLineNumbers 'x\e12\addons\amf_perflog\XEH_PreInit.sqf'";
-        serverInit = "call compile preprocessFileLineNumbers 'x\e12\addons\amf_perflog\XEH_PreInit.sqf'";
+        clientInit = "call compile preprocessFileLineNumbers 'x\amf\addons\amf_perflog\XEH_PreInit.sqf'";
+        serverInit = "call compile preprocessFileLineNumbers 'x\amf\addons\amf_perflog\XEH_PreInit.sqf'";
     };
 };
 
 class Extended_PostInit_EventHandlers
 {
 	class e12_amf_perflog {
-        clientInit = "e12retnull = [] spawn compile preprocessFileLineNumbers 'x\e12\addons\amf_perflog\XEH_PostClientInit.sqf'";
-        serverInit = "e12retnull = [] spawn compile preprocessFileLineNumbers 'x\e12\addons\amf_perflog\XEH_PostServerInit.sqf'";
+        clientInit = "e12retnull = [] spawn compile preprocessFileLineNumbers 'x\amf\addons\amf_perflog\XEH_PostClientInit.sqf'";
+        serverInit = "e12retnull = [] spawn compile preprocessFileLineNumbers 'x\amf\addons\amf_perflog\XEH_PostServerInit.sqf'";
     };
     
 };
